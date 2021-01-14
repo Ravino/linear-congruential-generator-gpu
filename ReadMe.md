@@ -12,3 +12,9 @@ cd /mnt
 Compiling your src code for cuda
 For example
 nvcc index.cu
+
+
+Step 4 
+Building project on local machine if installed nvcc
+bash  builder.sh
+This is builder created file with name @build@ in root dir

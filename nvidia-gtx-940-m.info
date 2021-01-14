@@ -1,0 +1,226 @@
+Device count: 14
+
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true
+Device name: 
+Total global memory: 656
+Shared memory per block: -4176
+Registers per block: 39
+Warp size: 0
+Memory pitch: -161306349
+Max threads per block: 0
+Max threads dimensions: x = 0, y = 0, z = 0
+Max grid size: x = 0, y = 0, z = 112
+Clock rate: 0
+Total constant memory: 640
+Compute capability: 41.0
+Texture alignment: 104
+Device overlap: 10
+Multiprocessor count: 0
+Kernel execution timeout enabled: true

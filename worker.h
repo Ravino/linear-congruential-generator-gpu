@@ -1,0 +1,1 @@
+__global__ void worker (unsigned *vecGpu, unsigned *poolBGpu, unsigned *poolXGpu, unsigned *countFlowGpu, unsigned *lengthGpu, double *poolMiddleValueGpu, unsigned *minGpu, unsigned *maxGpu, unsigned *lastAGpu);

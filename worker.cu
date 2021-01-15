@@ -6,7 +6,7 @@ __global__ void worker (unsigned *vecGpu, unsigned *poolBGpu, unsigned *poolXGpu
   double currentMiddleValue = 0.0;
 
 
-  unsigned flow = threadIdx.x;
+  unsigned flow = blockIdx.x * blockDim.x + threadIdx.x;
 
 
   unsigned b = poolBGpu[flow];
@@ -20,10 +20,10 @@ __global__ void worker (unsigned *vecGpu, unsigned *poolBGpu, unsigned *poolXGpu
   unsigned max = *maxGpu;
 
 
-  for (unsigned i = flow; i < length; i + countFlow) {
+  for (unsigned i = flow; i < length; i += countFlow) {
     vecGpu[i] = (x % (max - min)) + min;
     currentMiddleValue += (double)vecGpu[i];
-    x = x * lastA + b;;
+    x = x * lastA + b;
   }
 
 

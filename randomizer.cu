@@ -51,21 +51,23 @@ double randomizerGpu (unsigned *vec, unsigned length, unsigned min, unsigned max
   cudaMalloc((void **) &lastAGpu, sizeof(unsigned));
 
 
-  cudaMemcpy(vecGpu, &vec, length * sizeof(unsigned), cudaMemcpyHostToDevice);
-  cudaMemcpy(poolAGpu, &poolA, countFlow * sizeof(unsigned), cudaMemcpyHostToDevice);
-  cudaMemcpy(poolBGpu, &poolB, countFlow * sizeof(unsigned), cudaMemcpyHostToDevice);
-  cudaMemcpy(poolXGpu, &poolX, countFlow * sizeof(unsigned), cudaMemcpyHostToDevice);
-  cudaMemcpy(poolMiddleValueGpu, &poolMiddleValue, countFlow * sizeof(double), cudaMemcpyHostToDevice);
+  //cudaMemcpy(vecGpu, vec, length * sizeof(unsigned), cudaMemcpyHostToDevice);
+  cudaMemcpy(poolAGpu, poolA, countFlow * sizeof(unsigned), cudaMemcpyHostToDevice);
+  cudaMemcpy(poolBGpu, poolB, countFlow * sizeof(unsigned), cudaMemcpyHostToDevice);
+  cudaMemcpy(poolXGpu, poolX, countFlow * sizeof(unsigned), cudaMemcpyHostToDevice);
+  cudaMemcpy(poolMiddleValueGpu, poolMiddleValue, countFlow * sizeof(double), cudaMemcpyHostToDevice);
   cudaMemcpy(lengthGpu, &length, sizeof(unsigned), cudaMemcpyHostToDevice);
   cudaMemcpy(countFlowGpu, &countFlow, sizeof(unsigned), cudaMemcpyHostToDevice);
   cudaMemcpy(minGpu, &min, sizeof(unsigned), cudaMemcpyHostToDevice);
   cudaMemcpy(maxGpu, &max, sizeof(unsigned), cudaMemcpyHostToDevice);
+  cudaMemcpy(lastAGpu, &lastA, sizeof(unsigned), cudaMemcpyHostToDevice);
 
 
   worker<<<countBlock, countFlow>>>(vecGpu, poolBGpu, poolXGpu, countFlowGpu, lengthGpu, poolMiddleValueGpu, minGpu, maxGpu, lastAGpu);
 
 
-  cudaMemcpy(&poolMiddleValue, poolMiddleValueGpu, countFlow * sizeof(double), cudaMemcpyDeviceToHost);
+  cudaMemcpy(poolMiddleValue, poolMiddleValueGpu, countFlow * sizeof(double), cudaMemcpyDeviceToHost);
+  cudaMemcpy(vec, vecGpu, length * sizeof(unsigned), cudaMemcpyDeviceToHost);
 
 
   for(unsigned i = 0; i < countFlow; i++) {
@@ -75,11 +77,9 @@ double randomizerGpu (unsigned *vec, unsigned length, unsigned min, unsigned max
 
   middleValue = middleValue / length;
 
-
-  free(vec);
-  free(poolA);
-  free(poolX);
-  free(poolMiddleValue);
+  delete [] poolA;
+  delete [] poolX;
+  delete [] poolMiddleValue;
   cudaFree(vecGpu);
   cudaFree(poolAGpu);
   cudaFree(poolXGpu);

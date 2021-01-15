@@ -11,7 +11,7 @@
 
 unsigned * createPoolA(unsigned countFlow) {
 
-  unsigned *vec = new unsigned[countFlow];
+  unsigned *vec = new unsigned[countFlow + 1];
 
 
     vec[0] = A;
@@ -36,7 +36,7 @@ unsigned * createPoolA(unsigned countFlow) {
 unsigned * createPoolB(unsigned *multiplier, unsigned countFlow) {
 
   unsigned *vec = new unsigned[countFlow];
-  unsigned lastA = multiplier[countFlow];
+  unsigned lastA = multiplier[countFlow - 1];
 
 
   for(unsigned i = 0; i < countFlow; i++) {
@@ -68,6 +68,6 @@ unsigned * createPoolX(unsigned *multiplier, unsigned countFlow) {
 
 
 unsigned getLastA(unsigned * multiplier, unsigned countFlow) {
-  unsigned lastA = multiplier[countFlow];
+  unsigned lastA = multiplier[countFlow - 1];
   return lastA;
 }
